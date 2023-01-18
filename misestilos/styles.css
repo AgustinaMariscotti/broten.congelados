@@ -82,15 +82,12 @@ header {
   text-align: center;
 }
 
-.d-block {
-  padding-bottom: 1.5rem;
-}
 
 .bg-faded {
   background-color: #0B5345;
   color: #FEF9F1;
   outline: .1rem solid #FEF9F1;
-  padding: .2rem;
+  
 }
 
 .product-item-img {
@@ -115,19 +112,28 @@ header {
 
 .carru {
   width: 60%;
-}
+  }
 
 .carrus {
   margin-top: 2rem;
-}
 
+}
+@media(max-width: 500px){
+  .carru{
+    margin-top: 6%;
+  }
+  .flecha{ 
+    width: 10vw;
+  }
+}
 @media (max-width: 780px) {
   #sectabla {
     display: none;
   }
 
   .carru {
-    width: 100%
+    width: 100%;
+    margin-top: 6%;
   }
 
   #inicio {
@@ -141,14 +147,13 @@ header {
   .mila {
     width: 100%;
   }
-}
+ }
 
 @media (min-width: 780px) {
+
   #foto1 {
     width: 50%;
   }
 
-  .medallones {
-    display: flex;
-    justify-content: center;
-  }
+ 
+}
